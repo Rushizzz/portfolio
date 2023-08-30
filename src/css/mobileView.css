@@ -1,0 +1,118 @@
+@media screen and (max-width: 767px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    /* .upperPart{
+        position: fixed;
+    } */
+
+    .upperPart .logo img{
+        height: 50px;
+    }
+    
+    .upperPart .letsgo button{
+        height: 50px;
+        width: 150px;
+    }
+    
+    .test1{
+        height: 70%;
+        width: 100%;
+    }
+
+    .lowerPart{
+        flex-direction: column;
+        height: 90%;
+    }
+
+    .typo h1{
+        font-size: 72px;
+    }
+
+    .animeBox{
+        height: 15%;
+        width: 100%;
+    }
+
+    .navbar{
+        flex-direction: row;
+    }
+
+    .nav-link{
+        font-size: 16px;
+        /* border-bottom: 2px solid rgba(169,63,255,1); */
+    }
+
+    .aboutmeHeading h1{
+        font-size: 48px;
+    }
+
+    .profileContainer{
+        flex-direction: column;
+    }
+
+    .aboutmeProfile{
+        height: 200px;
+        width: 200px;
+    }
+
+    .aboutmeProfile img{
+        height: 200px;
+        width: 200px;
+    }   
+
+    .aboutmeDescription{
+        text-align: center;
+    }
+
+    .skills{
+        height: 100%;
+   }
+   .skills h1{
+    font-size: 60px;
+   }
+   .cardContainer{
+       flex-wrap: wrap;
+       height: 90%;
+   }   
+   
+   .card{
+    height: 270px;
+    width: 250px;
+   }
+
+   .form{
+        width: 100%;
+    }     
+
+    .block{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .mobileView{
+        display: block;
+        width: 100%;
+    }
+    
+    .testing{
+        display: none;
+    }
+
+    .skills{
+        height: 100vh;
+    }
+
+    .socialMedia{
+        height: 100vh;
+    }
+
+    
+  .nav-link {
+    padding: 20px 0px;
+    margin: 0px 20px;
+  }
+  }
